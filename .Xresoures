@@ -1,0 +1,32 @@
+xterm*faceName: Monospace:size=11:antialias=true
+XTerm*allowBoldFonts: true
+
+xterm*geometry: 160x144
+
+XTerm*termName: xterm-256color
+UXTerm*termName: xterm-256color
+
+!----------------------------------------------------------------------
+! Linux terminal scheme from Gnome Terminal Linux Console color palette
+
+xterm*background: #0C0121
+xterm*foreground: #BF80FF
+
+xterm*color0: #000000
+xterm*color1: #FFDF80
+xterm*color2: #BFFF80
+xterm*color3: #80FF9F
+xterm*color4: #80FFFF
+xterm*color5: #809FFF
+xterm*color6: #BF80FF
+xterm*color7: #FFFFFF
+xterm*color8: #FF8080
+xterm*color9: #FFDF80
+xterm*color10: #BFFF80
+xterm*color11: #80FF9F
+xterm*color12: #80FFFF
+xterm*color13: #809FFF
+xterm*color14: #BF80FF
+xterm*color15: #FF80DF
+
+xterm*cursorColor: #FFFFFF

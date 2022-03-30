@@ -2,15 +2,10 @@
 
 # Patrick Bauer's Epic Bash
 
-# Source all functions.
-for function in ~/.bash_functions*; do
-    source $function;
+# Source all bash files.
+for bash_file in ~/.bash_files*; do
+    source $bash_file;
 done
 
-source ~/.bash_scripts/.git-completion.bash
-source ~/.bash_scripts/.aliases.bash
-source ~/.bash_scripts/.aliases_machines.bash
-source ~/.bash_scripts/.exports.bash
-source ~/.bash_scripts/.ascii_art.bash
-source ~/.bash_scripts/.emojis.bash
-source ~/.bash_scripts/.prompt.bash
+# TODO: Add git completion bash script.
+# source ~/.bash_scripts/.git-completion.bash

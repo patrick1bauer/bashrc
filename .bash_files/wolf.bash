@@ -17,10 +17,10 @@ CYAN="\033[0;36m"
 LIGHTCYAN="\033[1;36m"
 NOCOLOR="\033[0m"
 
-# Prints the cecWolf Ascii Art
-function cecWolf()
+# Prints the wolf Ascii Art
+function wolf()
 {
     echo -e "${NOCOLOR}${WHITE}"
-    cat ~/ascii_art/cecWolf.txt
+    cat ~/ascii_art/wolf.txt
     echo -e "${NOCOLOR}${MAGENTA}"
 }
